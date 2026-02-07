@@ -4,4 +4,4 @@ texts = ["Die Äpfel are rot",
 vectorizer = CountVectorizer()
 vectorizer.fit(texts)
 print(vectorizer.vocabulary_)
-print("Tamano del vocabulario:", len(vectorizer.vocabulary_)
+print("Tamano del vocabulario:", len(vectorizer.vocabulary_))
